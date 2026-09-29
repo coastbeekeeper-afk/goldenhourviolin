@@ -337,7 +337,7 @@ a {
 
 .lede {
   margin-top: 1.35rem;
-  max-width: 28rem;
+  max-width: 34rem;
   color: var(--ink-soft);
   font-size: 1.2rem;
 }
@@ -409,6 +409,12 @@ a {
   gap: 0.2rem;
   font-size: clamp(2.4rem, 6vw, 4rem);
   line-height: 1.05;
+}
+
+.moment {
+  display: flex;
+  align-items: center;
+  gap: 1.15rem;
 }
 
 .diamond {
@@ -738,6 +744,14 @@ a {
   .package-grid {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+  }
+}
+
+@media (min-width: 930px) {
+  /* Ceremony, cocktail hour, and reception fit one line, so Church worship
+     wraps by itself. A leading diamond would hang under Ceremony. */
+  .moment:last-child .diamond {
+    display: none;
   }
 }
 
