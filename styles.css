@@ -747,6 +747,14 @@ a {
   }
 }
 
+@media (min-width: 930px) {
+  /* Ceremony, cocktail hour, and reception fit one line, so Church worship
+     wraps by itself. A leading diamond would hang under Ceremony. */
+  .moment:last-child .diamond {
+    display: none;
+  }
+}
+
 @media (max-width: 380px) {
   .brand {
     font-size: 1.05rem;
