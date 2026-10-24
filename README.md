@@ -15,7 +15,7 @@ When you change a price or the booking link, update every place it appears:
 - Every Book button uses the Square Appointments link:
   `https://book.squareup.com/appointments/0f2juwg2oo81ss/location/L2WKE6Z5AJVSV`
 - The contact address is `goldenhourviolin@gmail.com`.
-- The Christian faith-based line is the hero lede, “Church worship” in the moments strip, and the meta, Open Graph, Twitter, and JSON-LD descriptions. Keep those in agreement. The description still lists packages at $280–$525.
+- The Christian faith-based line is the hero lede, “Church worship” in the moments strip, and the meta, Open Graph, Twitter, and JSON-LD descriptions. Keep those in agreement. The description says $280 per package.
 
 Photos in `assets/images/` are the pictures from the previous site. They have had metadata removed. Replace a photo by keeping the same filename, or change the `src` in `index.html`. The social sharing image is `assets/og.jpg`.
 
