@@ -533,12 +533,6 @@ a {
   border-bottom-color: var(--label);
 }
 
-.retainer {
-  max-width: 38rem;
-  margin-top: 1.5rem;
-  color: var(--ink-soft);
-}
-
 .how {
   padding: 5rem 0 5.25rem;
 }
@@ -660,7 +654,7 @@ a {
   }
 
   .steps {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
   }
 
