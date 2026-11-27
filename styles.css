@@ -199,16 +199,6 @@ a {
   letter-spacing: 0.14em;
 }
 
-.btn-ghost {
-  background: transparent;
-  color: var(--ink);
-}
-
-.btn-ghost:hover {
-  background: var(--espresso);
-  color: var(--ivory);
-}
-
 .btn-gold {
   background: var(--champagne);
   border-color: var(--champagne);
