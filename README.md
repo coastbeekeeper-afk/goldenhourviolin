@@ -2,7 +2,7 @@
 
 Static site for Golden Hour Violin. Sam is a Christian faith-based solo violinist for weddings, special events, and church worship. It replaces the previous Carrd page and is meant to be served by GitHub Pages, including on the custom domain `goldenhourviolin.com`.
 
-The public page stays short on purpose. Packages, the retainer, and how booking works are here. Music choices are settled on the phone after someone books. The faith line stays short too: one sentence in the hero, “Church worship” in the moments strip, and the same idea in the page description. Do not expand it into a testimony or hymn list.
+The public page stays short on purpose. Packages and how booking works are here. Music choices are settled on the phone after someone books. The faith line stays short too: one sentence in the hero, “Church worship” in the moments strip, and the same idea in the page description. Do not expand it into a testimony or hymn list.
 
 ## Edit the site
 
@@ -11,11 +11,10 @@ Content lives in `index.html`. Styles are in `styles.css`. The small menu script
 When you change a price or the booking link, update every place it appears:
 
 - Package names and prices are the four cards in the Packages section.
-- The retainer line is “A $75 nonrefundable retainer holds the date and is applied to your balance.” It also appears in the hero and in How it works. Keep the wording the same in each place.
 - Every Book button uses the Square Appointments link:
   `https://book.squareup.com/appointments/0f2juwg2oo81ss/location/L2WKE6Z5AJVSV`
 - The contact address is `goldenhourviolin@gmail.com`.
-- The Christian faith-based line is the hero lede, “Church worship” in the moments strip, and the meta, Open Graph, Twitter, and JSON-LD descriptions. Keep those in agreement. The description says $280 per package.
+- The Christian faith-based line is the hero lede, “Church worship” in the moments strip, and the meta, Open Graph, Twitter, and JSON-LD descriptions. Keep those in agreement. The description says $320 per package.
 
 Photos in `assets/images/` are the pictures from the previous site. They have had metadata removed. Replace a photo by keeping the same filename, or change the `src` in `index.html`. The social sharing image is `assets/og.jpg`.
 
@@ -36,6 +35,8 @@ These belong on the call after booking, not on the page:
 - Hymn lists, testimony, or a longer faith statement
 - Personal-song add-on
 - Package timing (how many minutes, when a piece starts, and similar)
+
+Do not mention a retainer or deposit on the page. That is collected at Square checkout.
 
 Do not add a street address. The service is mobile. Do not add testimonials, venues, or photos that are not actually from this business.
 
