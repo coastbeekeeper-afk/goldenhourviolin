@@ -349,14 +349,6 @@ a {
   margin-top: 1.75rem;
 }
 
-.fine {
-  max-width: 38rem;
-  margin-top: 1.35rem;
-  color: var(--ink-soft);
-  font-size: 0.98rem;
-}
-
-.fine a,
 .steps a,
 .contact a,
 .site-footer a {
